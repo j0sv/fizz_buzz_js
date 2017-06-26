@@ -47,8 +47,8 @@ function fizzbuzz_output() {
     $('#display_value').animate({opacity: '0.98'}, "slow");
 }
 
-$(document).ready(function () {
-    $('#submit_fizzbuzz').click(function () {
+var onReadyEvents = function(){
+  $('#submit_fizzbuzz').click(function () {
     fizzbuzz_output();
     $('#fizzbuzz_number').val(Math.floor(Math.random() * 100));
   });
@@ -60,4 +60,4 @@ $(document).ready(function () {
     }
   });
 
-});
+};
