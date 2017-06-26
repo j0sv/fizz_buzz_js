@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+  background-image: url("./images/bg.png");
+}
+
+.container {
+  padding-left: 20px;
+  border: 1px solid black;
+  margin-left: 50px;
+  margin-top: 50px;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  overflow: auto;
+  display: inline-block;
+  float: left;
+  opacity: 0.98;
+}
+
+.display_value {
+  display:inline-block;
+  overflow:auto;
+  padding: 20px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: white;
+  overflow: auto;
+  display: inline-block;
+  float: left;
+  font-size: 128px;
+  font-weight: bold;
+  line-height: 0.8;
+  visibility: hidden;
+}
+
+span.fizzbuzz {
+  border: 1px solid black;
+  margin: 3px;
+  padding: 2px;
+  line-height: 2;
+  white-space: nowrap;
+  font-weight: bold;
+}
